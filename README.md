@@ -10,4 +10,4 @@ Dentro da pasta Bin\release\ ele se encontra compilado e zipado;
 
 O botão de exportar para excel so funcionado com excel instalado pois usa um interop.
 
-Foi planejado para Condominio Alto do Campestre na Vila Palmare Santo Andre São Paulo: https://goo.gl/maps/QYd28u6DjUA2. 
+Foi planejado para Condominio Altos do Campestre na Vila Palmares Santo Andre São Paulo: https://goo.gl/maps/QYd28u6DjUA2. 
