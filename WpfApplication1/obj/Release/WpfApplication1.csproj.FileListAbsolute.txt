@@ -1,0 +1,15 @@
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+c:\users\jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\System.Net.Http.dll
+C:\Users\Jonas\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache

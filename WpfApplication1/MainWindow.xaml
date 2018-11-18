@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Sorteio" Height="700" Width="600">
+    <Grid Margin="0,0,-35,0" HorizontalAlignment="Left" Width="627">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="187" />
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="300" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!--<<< Will resize to the size of contents -->
+        </Grid.RowDefinitions>
+
+        <Button Name="Sorteio" Margin="10,44,65,461" Content="Sorteio"  Click="Sorteio_Click"/>
+        <ListBox Name="Bloco1Said" Margin="17,69,74,-108" Grid.Column="1"/>
+        <ListBox Name="Bloco2Said" Margin="121,68,270,-107" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <ListBox Name="Bloco3Said" Margin="82,69,168,-107" Grid.Column="2"/>
+        <ListBox Name="Bloco4Said" Margin="181,69,70,-107" Grid.Column="2"/>
+        <Label Height="26" Margin="10,35,65,0" Name="label1" VerticalAlignment="Top" Content="Bloco A:" DataContext="{Binding}" FontSize="14" FontWeight="Bold" Grid.Column="1"/>
+        <Label Margin="112,35,264,464" Name="label2" Content="Bloco B:" DataContext="{Binding}" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.265"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Margin="74,35,160,470" Name="label3" Content="Bloco C:" DataContext="{Binding}" FontSize="14" FontWeight="Bold" Grid.Column="2"/>
+        <Label HorizontalAlignment="Right" Margin="0,35,65,467" Name="label4" Width="66" Content="Bloco D:" DataContext="{Binding}" FontSize="14" FontWeight="Bold" Grid.Column="2"/>
+        <Button Content="Limpa" Margin="10,98,101,407" Name="button2" Click="button2_Click"/>
+        <Button Content="Exportar Para Excel" Margin="10,152,65,353" Name="button1" Click="button1_Click"/>
+    </Grid>
+</Window>
