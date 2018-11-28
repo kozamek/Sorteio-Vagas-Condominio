@@ -25,10 +25,10 @@ namespace WpfApplication1
 
             Random rand = new Random();
 
-            selection = rand.Next(0, 28);
-            Sorteio.Add(Entrada[selection]);
-
-            while (count <= 27)
+            //selection = rand.Next(0, 28);
+            //Sorteio.Add(Entrada[selection]);
+ 
+            do
             {
                 selection = rand.Next(0, 28);
 
@@ -38,7 +38,7 @@ namespace WpfApplication1
                 }
                 count = Sorteio.Count();
 
-            }
+            } while (count <= 27);
 
             return Sorteio;
 
